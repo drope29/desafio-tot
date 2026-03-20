@@ -3,10 +3,15 @@
 
 @import "tailwindcss";
 
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
 @theme {
     --font-sans: "Inter", sans-serif;
     --font-mont: "Montserrat", sans-serif;
 }
 
-
-
+img {
+    pointer-events: auto;
+}
