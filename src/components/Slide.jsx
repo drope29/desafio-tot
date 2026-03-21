@@ -22,13 +22,12 @@ export default function Slide() {
     }
 
     return (
-        <section className="flex flex-col justify-center bg-[#ffe5c9] w-full h-[361px] px-4 overflow-hidden">
-
-            <div className="flex flex-col mb-12 items-start lg:ml-64 mt-9">
-                <h1 className="text-[#e34926] font-mont font-bold text-4xl mb-3 tracking-wide">
+        <section className="flex flex-col justify-center bg-[#ffe5c9] w-full h-auto min-h-[361px] py-12 lg:py-0 px-4 overflow-hidden">
+            <div className="flex flex-col mb-8 lg:mb-12 items-start md:ml-12 lg:ml-64 mt-9">
+                <h1 className="text-[#e34926] font-mont font-bold text-3xl lg:text-4xl mb-3 tracking-wide">
                     Nossos clientes
                 </h1>
-                <p className="text-black font-mont text-xl max-w-2xl leading-normal">
+                <p className="text-black font-mont text-lg lg:text-xl max-w-2xl leading-normal">
                     As empresas que geramos as experiências desejadas!
                 </p>
             </div>
@@ -57,6 +56,7 @@ export default function Slide() {
                     }}
 
                     allowTouchMove={false}
+
                     onSwiper={(swiper) => {
                         swiperRef.current = swiper
                     }}
@@ -74,7 +74,7 @@ export default function Slide() {
                             <img
                                 src={logo}
                                 alt="Logo do cliente"
-                                className="h-24 w-auto shrink-0 pointer-events-none"
+                                className="h-12 md:h-16 lg:h-24 w-auto shrink-0 pointer-events-none object-contain"
                             />
                         </SwiperSlide>
                     ))}
