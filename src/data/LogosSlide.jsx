@@ -36,5 +36,4 @@ export const ListaLogos = [
     '/images/logo-unicred-slide.png',
     '/images/logo-viveo-slide.png',
     '/images/logo-yeesco-slide.png',
-
 ];

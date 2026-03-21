@@ -4,6 +4,8 @@ import Slide from './components/Slide.jsx'
 import Solucoes from './components/Solucoes.jsx'
 import Infos from './components/Infos.jsx'
 import Material from './components/MaterialGratuito.jsx'
+import Prateleira from './components/Prateleira.jsx'
+import Demonstracao from './components/Demonstracao.jsx'
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
         <Solucoes />
         <Infos/>
         <Material />
+        <Prateleira/>
+        <Demonstracao/>
       </main>
     </>
   )
