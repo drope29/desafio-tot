@@ -6,6 +6,7 @@ import Infos from './components/Infos.jsx'
 import Material from './components/MaterialGratuito.jsx'
 import Prateleira from './components/Prateleira.jsx'
 import Demonstracao from './components/Demonstracao.jsx'
+import Footer from './components/Footer.jsx'
 
 export default function App() {
   return (
@@ -16,11 +17,13 @@ export default function App() {
         <img className='w-full h-auto max-h-[500px] lg:max-h-[700px] object-cover object-top' src="/images/image-hero-section.png" alt="" />
         <Slide />
         <Solucoes />
-        <Infos/>
+        <Infos />
         <Material />
-        <Prateleira/>
-        <Demonstracao/>
+        <Prateleira />
+        <Demonstracao />
       </main>
+
+      <Footer />
     </>
   )
 }
